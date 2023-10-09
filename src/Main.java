@@ -14,8 +14,8 @@ public class Main {
                 degreesC = scan.nextDouble();
                 degreesF = (degreesC * 9)/5 + 32;
                 scan.nextLine();
-                System.out.printf("\nDegrees C : %8.2f", degreesC);
-                System.out.printf("\nDegrees F : %8.2f", degreesF);
+                System.out.printf("\nDegrees C : %9.2f", degreesC);
+                System.out.printf("\nDegrees F : %9.2f", degreesF);
                 System.out.println("\nWould you like to input another temperature? [Y/N]");
                 yn = scan.nextLine();
                 if (yn.equalsIgnoreCase("N")) {
